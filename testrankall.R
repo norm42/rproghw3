@@ -1,0 +1,7 @@
+r <- rankall("pneumonia", "worst")
+r <- rankall("heart attack", 4)
+r <- rankall("heart failure", 10)
+head(rankall("heart attack", 20), 10)
+tail(rankall("pneumonia", "worst"),3)
+tail(rankall("heart failure"),10)
+tail(rankall("heart failure","best"),10)
